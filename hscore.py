@@ -15,7 +15,7 @@ def interpret_heart_score(score):
 
 # Streamlit app layout
 def main():
-    st.title("HEART Score Calculator")
+    st.title("Beta Version - don't use for clinical care - HEART Score Calculator")
 
     st.write("""
     ## HEART Score for Major Adverse Cardiac Events
