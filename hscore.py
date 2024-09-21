@@ -67,8 +67,8 @@ def main():
         format_func=lambda x: {0: "≤ normal limit", 1: "1-3x normal limit", 2: ">3x normal limit"}[x]
     )
 
-    # Button to calculate HEART score
-    if st.button("Calculate HEART Score"):
+    # Button to calculate  score
+    if st.button("Calculate  Score"):
         score = calculate_heart_score(history, ecg, age, risk_factors, troponin)
         st.write(f"### Your HEART Score is: {score}")
         st.write(f"### Risk Category: {interpret_heart_score(score)}")
