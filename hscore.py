@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Function to calculate HEART Score
+# Function to calculate  Score
 def calculate_heart_score(history, ecg, age, risk_factors, troponin):
     return history + ecg + age + risk_factors + troponin
 
@@ -15,7 +15,7 @@ def interpret_heart_score(score):
 
 # Streamlit app layout
 def main():
-    st.title("Beta Version - don't use for clinical care - HEART Score Calculator")
+    st.title("Beta Version - Score Calculator")
 
     st.write("""
     ## HEART Score for Major Adverse Cardiac Events
